@@ -1,0 +1,35 @@
+body{
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.kebab{
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+    height: 65%;
+
+    background-color: white;
+}
+
+.gurka{
+    margin: 0;
+    position: absolute;
+    top: 63%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.singer {
+    width: 100%;
+}
+
+.text {
+    text-align: center;
+}
