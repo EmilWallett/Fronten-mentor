@@ -5,31 +5,115 @@ body{
     background-color: hsl(225, 100%, 94%);
 }
 
-.kebab{
+p {
+    color: rgb(15, 70, 134);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h1, strong {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+u {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-weight: bold;
+
+    margin: 0;
+    position: absolute;
+    top: 64%;
+    left: 9em;
+    transform: translate(-50%, -50%);
+    width: 21%;
+    height: 65%;
+    
+}
+
+u:hover {
+    text-decoration: none;
+}
+
+.panel{
     text-align: center;
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 25%;
+    width: 21%;
     height: 65%;
+    min-width: 400px;
+    min-height: 625px;
 
     background-color: white;
+    border-radius: 15px;
 }
 
-.gurka{
+.music{
     margin: 0;
     position: absolute;
-    top: 63%;
+    top: 64%;
     left: 20%;
     transform: translate(-50%, -50%);
 }
 
 .singer {
     width: 100%;
+    border-radius: 15px 15px 0px 0px;
 }
 
-.text {
-    text-align: center;
+.bar {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    width:77%;
+    height: 12%;
+    
+    margin: 0;
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.price-text {
+
+    margin: 0;
+    position: absolute;
+    top: 64%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    
+    line-height: 0.1;
+}
+
+.payment {
+    background-color: blue;
+    border-radius: 15px;
+
+    margin: auto;
+
+    width: 75%;
+    height: 3em;
+}
+
+.payment:hover {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.payment-text {
+    color:white;
+    
+    margin: 0;
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cancel-text{
+    font-weight: bold;
+}
+
+.cancel-text:hover {
+    color: black;
 }
